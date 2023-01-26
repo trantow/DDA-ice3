@@ -745,3 +745,4 @@ def plot_all_both_grounds(DDA):
 		# Save the MegaPlot figure
 		fig.savefig(os.path.join(DDA.plotdir, 'Fig7_MegaPlot_both_seg{}.png'.format(seg)), bbox_inches='tight')
 		plt.close()
+
